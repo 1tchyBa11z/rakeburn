@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from bscscan import BscScan
-from dotenv import load_dotenv   #for python-dotenv method
+from dotenv import load_dotenv
 import os
 import json
 import requests
