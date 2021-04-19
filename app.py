@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from bscscan import BscScan
 from dotenv import load_dotenv
 import os
