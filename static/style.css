@@ -9,8 +9,31 @@ a:visited, a:link, a:visited {
     text-decoration: none
 }
 a:hover { text-decoration: underline}
-#main{ color: green; line-height:18px;}
+#main{ color: green; line-height:20px;font-size: 16px;}
 
-h1, h2, h3 {display:inline-block;position:relative;line-height:18px;}
-.container {width: 500px; padding:0px;background:red; }
+h1, h2, h3 {display:block;position:relative;line-height:18px;}
 em {color: white; text-decoration: none; font-size:12pt; }
+
+#tx{ border: 12px dashed white;text-align: right}
+th, td { border: 1px dashed white;font-size:16px;padding:2px;}
+#dataframe, #dataframes {display:none;border: 12px dashed white;text-align: right}
+.button5 {
+  background-color: green; /* Green */
+  border: none;
+  height: 50px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
+
